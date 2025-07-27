@@ -1,0 +1,31 @@
+*,body{box-sizing: border-box;}
+.wrap{width: 640px;}
+.row{
+  width: 424px;
+  float: left;
+}
+.row img{
+  width: 96px;
+  height: 96px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 24px;
+}
+.content{margin-right: 20px;}
+.content .title{
+  font-size: 20px;
+  line-height: 1.2;
+}
+.content .text{line-height: 1.5;}
+.aside{
+  width: 216px;
+  height: 216px;
+  display: block;
+}
+.footer{
+  height: 120px;
+  line-height: 1.5;
+  margin-top: 24px;
+  text-align: center;
+  padding: 48px;
+}
