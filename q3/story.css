@@ -1,0 +1,150 @@
+*,
+*::after,
+*::before,
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    /* font-weight: bold; */
+    box-sizing: border-box;
+}
+.hero {
+    position: relative;
+    margin-bottom: 64px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero .page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+
+.page-title h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.page-title h3 {
+    font-size: 28px;
+}
+.wrap{width: 856px;}
+.align-center{margin: 0 auto;}
+.brand-quote{
+    max-width: 1000px;
+    border-radius: 12px;
+    padding: 32px;
+    text-align: center;
+    background: #F5FEE7;
+    letter-spacing: 0.05em;
+}
+.brand-quote h5{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #57A203;
+    margin-bottom: 12px;
+}
+.brand-quote p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.brand-intro{
+    width: 1076px;
+    margin-bottom: 48px;
+}
+.brand-intro img{
+    width: 100%;
+    margin-bottom: 24px;
+}
+h4.title{
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.brand-intro .content h5{
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color: #57A203;
+}
+.brand-intro .content p{
+    margin-bottom: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+.brand-intro .content p:last-child{
+    margin: 0;
+}
+.history ul{
+    list-style-type: disc;
+    padding-left: 25px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #DEE2E6;
+}
+.history li{
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    padding-bottom: 12px;
+}
+.history li:last-child{padding-bottom: 0;}
+.history li span:first-child{padding-right: 8px;}
+.history li span:last-child{
+    padding-left: 8px;
+    border-left: 1px solid #212529;
+}
+.brand-concept li{
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    padding-left: 12px;
+    border-left: 3px solid #DEE2E6;
+    margin-bottom: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+.brand-concept li:last-child{margin-bottom: 0;}
+.brand-story li{
+    color: #57A203;
+    padding-bottom: 12px;
+}
+.brand-story li:last-child{padding-bottom: 0;}
+.brand-story li i{padding-right: 8px;}
+.brand-story li span{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid #57A203;
+}
+.footer{
+    width: 100%;
+    background: #F8F9FA;
+}
+.footer .text-block{
+    text-align: center;
+    padding: 64px;
+}
+.footer .text-block p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
